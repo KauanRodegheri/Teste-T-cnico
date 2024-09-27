@@ -4,6 +4,6 @@ if 'a' in string or 'A' in string:
     for i in string:
         if i in 'aA':
             count+=1
-    print(f'letra A encontrada {count}')
+    print(f'letra A encontrada {count} vezes')
 else:
     print('Letra A não foi encontrada')
